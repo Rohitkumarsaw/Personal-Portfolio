@@ -1,0 +1,114 @@
+.project-highlight {
+  background-color: #000;
+  color: var(--white);
+  padding: 30px 15px;
+  max-width: 90%;
+  margin: 0 auto 50px;
+  box-shadow: 0 0 12px var(--green);
+  border: 1px solid var(--green);
+  font-family: 'Courier New', monospace;
+  
+}
+
+.highlight-title {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 6px var(--green);
+}
+
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-info {
+  flex: 1 1 300px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--green);
+}
+
+.project-info h3 {
+  font-size: 1.2em;
+  text-shadow: 0 0 4px var(--green);
+}
+
+.project-description {
+  margin: 10px 0;
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+.tech-stack {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tech-stack li {
+  background-color: #000;
+  border: 1px solid var(--green);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  box-shadow: 0 0 6px var(--green);
+}
+
+.project-actions .github-btn {
+  display: inline-block;
+  color: var(--green);
+  border: 1px solid var(--green);
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 8px var(--green);
+}
+
+.project-preview {
+  flex: 1 1 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px var(--green);
+  overflow: hidden;
+
+}
+
+.project-preview img {
+  width: auto;
+  max-height: 400px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  /*box-shadow: 0 0 12px var(--green);*/
+  object-fit: contain;
+}
+
+
+
+
+
+.carousel-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel-controls button {
+  background-color: #000;
+  color: var(--green);
+  border: 1px solid var(--green);
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 8px var(--green);
+}

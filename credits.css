@@ -1,0 +1,16 @@
+.demo {
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: var(--secondary);
+  color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.demo{
+  color: var(--green);
+  font-size: 3rem;
+}

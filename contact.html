@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - RS STUDIOZ</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/about.css" />
+  <link rel="stylesheet"  href="../css/services.css" />
+  <link rel="stylesheet"  href="../css/projects.css" />
+  <link rel="stylesheet"  href="../css/contact.css" />
+    <link rel="stylesheet" href="css/home.css" />
+       <link rel="stylesheet" type="text/css" href="credits.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/0859b3b6e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <div class="brand-info">
+        <img src="../image/photo.png" alt="Rohit Kumar's Photo" />
+        <h2>RS STUDIOZ</h2>
+      </div>
+      <nav>
+  <a href="../index.html" class="navlink">Home</a>
+    <a href="../html/services.html" class="navlink">Services</a>
+  <a href="../html/about.html" class="navlink">About</a>
+  <a href="../html/projects.html" class="navlink">Projects</a>
+  <a href="../html/contact.html" class="navlink active ">Contact</a>
+  <a href="../html/credits.html" class="navlink ">Credits</a>
+</nav>
+
+      
+    </header>
+
+    <main>
+     <section class="contact-section">
+  <h2 class="contact-title">Get in Touch</h2>
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+     <input type="hidden" name="access_key" value="52545f17-40c0-4802-9826-43927ed9241c">
+    <div class="form-card">
+      <label for="name">👤 Full Name</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-card">
+      <label for="email">📧 Email Address</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+
+    <div class="form-card">
+      <label for="subject">📌 Subject</label>
+      <input type="text" id="subject" name="subject" />
+    </div>
+
+    <div class="form-card">
+      <label for="message">💬 Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <div class="button-group">
+  <button class="form-button" type="submit">
+    <i class="fas fa-rocket"></i> Submit
+  </button>
+
+  <button class="form-button clear-button" type="reset">
+    <i class="fas fa-times-circle"></i> Clear
+  </button>
+</div>
+
+  </form>
+</section>
+
+    </main>
+  </div>
+</body>
+</html>

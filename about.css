@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  font-family: 'Segoe UI', sans-serif;
+  color: #e0e0e0;
+}
+
+.education-section {
+  padding: 50px 20px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.education-section h2 {
+  font-size: 2.5rem;
+  color: var(--green);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.education-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.edu-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--green);
+  border-left: 4px solid var(--green);
+  backdrop-filter: blur(8px);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px var(--green);
+  transition: transform 0.3s ease;
+}
+
+.edu-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px var(--green);
+}
+
+.edu-box h4 {
+  font-weight: 400;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.edu-box h3 {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.edu-box p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+/*Education complete*/
+
+
+
+
+.skills-section {
+  background-color: #000;
+  color: var(--white);/*#00ff99;*/
+  padding: 30px 10px;
+  border: 1px solid var(--green);/*#00ff99;*/
+  box-shadow: 0 0 12px var(--green);/*#00ff99;*/
+  max-width: 95%; /* Adjusted to match upper box width */
+  margin: 0 auto;
+  font-family: 'Courier New', monospace;
+}
+
+.top-box {
+  background-color: #111;
+  border: 1px solid var(--green);/*#00ff99;*/
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 0.95em;
+  max-width: 600px; /* Match width of entire section */
+  margin: 0 auto 30px auto;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 6px var(--green);/*#00ff99;*/
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns: left & right */
+  gap: 20px;
+}
+
+.skill-box {
+  background-color: #111;
+  border: 1px solid var(--green);/*#00ff99;*/
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 0.85em;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+/*.skill-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px var(--green); /*#00ff99;
+}
+*/
+.skill-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #0ff, 0 0 30px var(--green);
+  border-color: var(--green);
+}
+
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 15px var(--green); }
+  50% { box-shadow: 0 0 30px var(--green); }
+}
+/*skill section completed*/
+
